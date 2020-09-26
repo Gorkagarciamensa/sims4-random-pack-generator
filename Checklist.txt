@@ -1,0 +1,47 @@
+- [] SIMS 4 RANDOM GENERATOR
+ 	- [] EXPANSION PACKS
+		- [] GET TO WORK
+		- [] GET TOGETHER
+		- [] CITY LIVING
+		- [] CATS & DOGS
+		- [] SEASONS
+		- [] GET FAMOUS
+		- [] ISLAND LIVING
+		- [] DISCOVERY UNIVERSITY
+		- [] ECHO LIVING
+
+	- [] GAME PACKS
+		- [] OUTDOOR RETREAT
+		- [] SPA DAY
+		- [] DINE OUT
+		- [] VAMPIRES
+		- [] PARENTHOOD
+		- [] JUNGLE ADVENTURE
+        - [] STRANGERVILLE
+        - [] REALM OF MAGIC
+
+    - [] STUFF PACKS (TODO)
+        -....
+        
+    - [] WORLD GENERATOR
+        - [] EVERGREEN HARBOR
+        - [] GLIMMERBROOK
+        - [] BRITECHESTER
+        - [] SULANI
+        - [] DEL SOL VALLEY
+        - [] STRANGERVILLE
+        - [] FORGOTTEN HOLLOW
+        - [] BRINDLETON BAY
+        - [] SAN MYSHUNO
+        - [] WINDENBURG
+        - [] MAGNOLIA PROMENADE
+        - [] OASIS SPRING
+        - [] WILLOW CREEK
+
+    - [] RANDOM SAVING INCOME
+        - [] 20.0000 - 320.000
+
+    - [] RANDOM HOUSE GENERATOR
+        - [] TO BUILD
+        - [] TO UPGRADE
+        - [] BASE GAME HOUSE
