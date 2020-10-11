@@ -1,0 +1,31 @@
+<div class="main-wrapper">
+  <div class="content-wrapper">
+    <div class="content-wrapper--inside" *ngIf="random_expansion_pack.length" [@inOutAnimation]>
+
+      <div class="random-income">
+        <ng-container *ngIf="random_income">
+          <h5 class="pack-type"> Simoleon: </h5>
+          <div class="random-pack-name">
+            <p>{{random_income}} </p>
+            <img src="../assets/SimoleonSymbol.png" alt="simoleon" class="simoleon-icon">
+          </div>
+        </ng-container>
+      </div>
+      <div *ngFor="let random_pack of random_expansion_pack" class="margin-right">
+        <h5 class="pack-type">{{random_pack.type}}</h5>
+        <div class="random-pack-name">
+          <p>{{random_pack.name}}</p>
+          <img [src]="random_pack.icon" [alt]="random_pack.icon" class="icon-image">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="generate-pack-wrapper">
+    <span>
+      <button (click)="generateRandomPacks()" class="button">
+        <p>GENERATE RANDOM PACKS</p>
+      </button>
+    </span>
+  </div>
+</div>
