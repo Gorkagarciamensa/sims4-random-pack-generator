@@ -87,6 +87,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+
     &--block {
       display: inline-block;
       margin: 0.5rem;
@@ -102,8 +103,7 @@
       &-random {
         display: flex;
         align-items: center;
-        flex-direction: row-reverse;
-        justify-content: flex-end;
+        justify-content: space-between;
 
         &-icon-image {
           height: 2rem;

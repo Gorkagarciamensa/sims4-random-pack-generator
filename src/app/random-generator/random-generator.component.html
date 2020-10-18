@@ -5,16 +5,30 @@
       <ng-container *ngIf="random_income">
         <h5 class="wrapper-content--block-font-size"> Simoleon: </h5>
         <div class="wrapper-content--block-random">
-          <p>{{random_income}} </p>
           <img src="../assets/SimoleonSymbol.png" alt="simoleon" class="wrapper-content--block-random-icon-image">
+          <p>{{random_income}} </p>
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="48" height="48"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF5722" fill="none" stroke-linecap="round"
+            stroke-linejoin="round" (click)="generateRandomIncome()">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+            <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+          </svg>
         </div>
       </ng-container>
     </div>
-    <div *ngFor="let random_pack of random_expansion_pack" class="wrapper-content--block">
+    <div *ngFor="let random_pack of random_expansion_pack; let i = index" class="wrapper-content--block">
       <h5 class="wrapper-content--block-font-size">{{random_pack.type}}:</h5>
       <div class="wrapper-content--block-random">
-        <p>{{random_pack.name}}</p>
         <img [src]="random_pack.icon" [alt]="random_pack.icon" class="wrapper-content--block-random-icon-image">
+        <p>{{random_pack.name}}</p>
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="48" height="48"
+          viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF5722" fill="none" stroke-linecap="round"
+          stroke-linejoin="round" (click)="rerollPack(random_pack, i)">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M20 11a8.1 8.1 0 0 0 -15.5 -2m-.5 -4v4h4" />
+          <path d="M4 13a8.1 8.1 0 0 0 15.5 2m.5 4v-4h-4" />
+        </svg>
       </div>
     </div>
 
