@@ -18,11 +18,9 @@ import {
     ]),
   ],
 })
-export class RandomGeneratorComponent implements OnInit {
+export class RandomGeneratorComponent {
   random_expansion_pack: NameIconInterface[] = [];
   random_income: number = null;
-  isClicked = true;
-  ngOnInit() {}
 
   // generate random income between 20.000 && 320.000, with probabilities
   generateRandomIncome() {
@@ -52,21 +50,6 @@ export class RandomGeneratorComponent implements OnInit {
       clearInterval(interval);
     }, 1500);
   }
-
-  // generateExpansionPack(pack: NameIconInterface[], n: number) {
-  //   const newArray = [...pack];
-  //   this.random_expansion_pack = [];
-  //   for (let i = 0; i < n; i++) {
-  //     const randomLength: number = Math.floor(
-  //       Math.random() * (newArray.length - 1)
-  //     );
-  //     let value: string = newArray[randomLength];
-  //     if (!this.random_expansion_pack.includes(value)) {
-  //       this.random_expansion_pack.push(value);
-  //       newArray.splice(randomLength, 1);
-  //     }
-  //   }
-  // }
 
   generateRandomPacks() {
     this.generateRandomIncome();
@@ -100,7 +83,10 @@ export class RandomGeneratorComponent implements OnInit {
     const interval = setInterval(() => {
       const pack: NameIconInterface[] = Expansion_Packs[random_pack.type_key];
       const mathRandom = Math.floor(Math.random() * pack.length);
-      if (pack[mathRandom].type_key === random_pack.type_key) {
+      if (
+        pack[mathRandom].type_key === random_pack.type_key &&
+        mathRandom !== i
+      ) {
         this.random_expansion_pack[i] = pack[mathRandom];
       }
     }, 100);
