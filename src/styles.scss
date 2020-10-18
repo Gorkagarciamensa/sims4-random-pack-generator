@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-@import "./utilities/_variables";
 
 * {
   padding: 0;
@@ -9,12 +8,21 @@
 
 html,
 body {
-  height: $vheight;
+  height: 100%;
   font-family: loucos, Arial, Helvetica, sans-serif;
+  background-image: url("./assets/background-sims.png");
+  background-repeat: no-repeat;
 }
 
 @font-face {
   font-family: loucos;
   src: url("./assets/fonts/Loucos\ Lyne\ -\ thesimssansbold.otf")
     format("opentype");
+}
+
+@media (min-width: 64em) {
+  html,
+  body {
+    background-size: cover;
+  }
 }
