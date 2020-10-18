@@ -1,6 +1,5 @@
 import { trigger, transition, style, animate } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
-import { clear } from 'console';
 import {
   NameIconInterface,
   Expansion_Packs,
