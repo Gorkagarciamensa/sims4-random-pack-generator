@@ -26,9 +26,9 @@ export class RandomGeneratorComponent {
   generateRandomIncome() {
     const interval = setInterval(() => {
       // if range 20.000 - 70.000 number < 0.5
-      const lowRange = Math.random() <= 0.5;
+      const lowRange = Math.random() <= 0.6;
       // else if range 70.001 - 150.000 number > 0.51 - 0.8
-      const midRange = !lowRange && Math.random() <= 0.8;
+      const midRange = !lowRange && Math.random() <= 0.85;
       // else range 150.001 - 320.000 number > 0.71 - 0.99
 
       if (lowRange) {
@@ -46,6 +46,7 @@ export class RandomGeneratorComponent {
       }
     }, 100);
 
+    // Generate random number every 100ms until 1500ms
     setTimeout(() => {
       clearInterval(interval);
     }, 1500);
