@@ -18,64 +18,61 @@ export const Expansion_Packs: DataBaseInterface = {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Get to Work',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/d/d1/TS4GTW_Icon.png/revision/latest?cb=20190717095333',
+      icon: 'assets/icons/get_to_work.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Get Together',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/e/ea/TS4GT_Icon.png/revision/latest?cb=20190717095425',
+      icon: 'assets/icons/get_together.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'City Living',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/0/0c/TS4_City_Living_Icon.png/revision/latest?cb=20190717102041',
+      icon: 'assets/icons/city_living.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Cats & Dogs',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/b/b5/TS4_Cats_and_Dogs_Icon.png/revision/latest?cb=20190717102130',
+      icon: 'assets/icons/cats_dogs.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Seasons',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/3/33/TS4_Seasons_Icon.png/revision/latest?cb=20190717102337',
+      icon: 'assets/icons/seasons.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Get Famous',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/5/52/TS4_EP6_GF_Icon.png/revision/latest?cb=20190717102414',
+      icon: 'assets/icons/get_famous.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Island Living',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/e/ea/TS4_EP7_Island_Living_Icon.png/revision/latest?cb=20190717102455',
+      icon: 'assets/icons/island_living.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Discover University',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/5/57/TS4_EP8_Discover_University_Icon.png/revision/latest?cb=20191022154656',
+      icon: 'assets/icons/discover_university.png',
     },
     {
       type_key: 'expansion_pack',
       type: 'Expansion Pack',
       name: 'Eco Living',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/c/c2/TS4_EP9_Eco_Lifestyle_Icon.png/revision/latest?cb=20200506162724',
+      icon: 'assets/icons/eco_living.png',
+    },
+    {
+      type_key: 'expansion_pack',
+      type: 'Expansion Pack',
+      name: 'Snowy Escape',
+      icon: 'assets/icons/snowy_escape.png',
     },
   ],
   game_pack: [
@@ -83,57 +80,49 @@ export const Expansion_Packs: DataBaseInterface = {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Outdoor Retreat',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/e/e6/TS4OR_Icon.png/revision/latest?cb=20190717103746',
+      icon: 'assets/icons/outdoor_retreat.png',
     },
     {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Spa Day',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/4/46/TS4SD_Icon.png/revision/latest?cb=20190717103832',
+      icon: 'assets/icons/spa_day.png',
     },
     {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Dine Out',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/4/4b/TS4DO_Icon.png/revision/latest?cb=20190717103914',
+      icon: 'assets/icons/dine_out.png',
     },
     {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Vampires',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/1/17/The_Sims_4_Vampires_Icon.png/revision/latest?cb=20190717103951',
+      icon: 'assets/icons/vampires.png',
     },
     {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Parenthood',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/6/6b/Parenthood_Icon.png/revision/latest?cb=20190717104047',
+      icon: 'assets/icons/parenthood.png',
     },
     {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Jungle Adventure',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/5/55/TS4AT_Icon.png/revision/latest?cb=20190717104231',
+      icon: 'assets/icons/jungle_adventure.png',
     },
     {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Strangerville',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/3/3c/The_Sims_4_StrangerVille_Icon.png/revision/latest?cb=20190717104324',
+      icon: 'assets/icons/strangerville.png',
     },
     {
       type_key: 'game_pack',
       type: 'Game Pack',
       name: 'Realm of Magic',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/1/19/Realm_of_Magic_icon.png/revision/latest?cb=20190820164201',
+      icon: 'assets/icons/realm_of_magic.png',
     },
   ],
   stuff_pack: [
@@ -141,57 +130,49 @@ export const Expansion_Packs: DataBaseInterface = {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Nifty Knitting',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/b/b2/TS4SP17Icon.png/revision/latest?cb=20200502181538',
+      icon: 'assets/icons/nifty_knitting.png',
     },
     {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Movie Hangout',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/a/a2/TS4MHS_Icon.png/revision/latest?cb=20190717120652',
+      icon: 'assets/icons/movie_hangout.png',
     },
     {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Kids Room',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/2/21/The_Sims_4_Kids_Room_Stuff_Logo.png/revision/latest?cb=20190717121039',
+      icon: 'assets/icons/kids_room.png',
     },
     {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Backyard',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/1/16/Backyard_stuff_icon.png/revision/latest?cb=20190717121121',
+      icon: 'assets/icons/backyard.png',
     },
     {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Vintage Glamour',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/c/c9/Vintage_Glamour_Stuff_Icon.png/revision/latest?cb=20190717121201',
+      icon: 'assets/icons/vintage_glamour.png',
     },
     {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Toddler',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/a/ab/TS4_Toddler_Icon.png/revision/latest?cb=20190717121414',
+      icon: 'assets/icons/toddler.png',
     },
     {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Laundry Day',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/5/52/TS4_Laundry_Day_Stuff_Icon.png/revision/latest?cb=20190717121449',
+      icon: 'assets/icons/laundry_day.png',
     },
     {
       type_key: 'stuff_pack',
       type: 'Stuff Pack',
       name: 'Tiny Living',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/5/51/TS4_SP16_Tiny_Living_Icon.png/revision/latest?cb=20200122100213',
+      icon: 'assets/icons/tiny_living.png',
     },
   ],
   house_generator: [
@@ -199,19 +180,19 @@ export const Expansion_Packs: DataBaseInterface = {
       type_key: 'house_generator',
       type: 'House Generator',
       name: 'To Build',
-      icon: '../assets/Hammer.png',
+      icon: 'assets/Hammer.png',
     },
     {
       type_key: 'house_generator',
       type: 'House Generator',
       name: 'To Upgrade',
-      icon: '../assets/WoodworkBench.png',
+      icon: 'assets/WoodworkBench.png',
     },
     {
       type_key: 'house_generator',
       type: 'House Generator',
       name: 'Base Game Mode',
-      icon: '../assets/House.png',
+      icon: 'assets/House.png',
     },
   ],
   world_generator: [
@@ -219,92 +200,85 @@ export const Expansion_Packs: DataBaseInterface = {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Evergreen Harbor',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/f/fa/Evergreen_Harbor_Icon.png/revision/latest?cb=20200605074616',
+      icon: 'assets/icons/evergreen_harbor.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Glimmerbrook',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/0/01/GlimmerbrookLogo.png/revision/latest?cb=20190905191307',
+      icon: 'assets/icons/glimmerbrook.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Britechester',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/c/ce/BritechesterLogo.png/revision/latest?cb=20191117161413',
+      icon: 'assets/icons/britechester.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Sulani',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/0/00/Sulani_Icon.png/revision/latest?cb=20190611143639',
+      icon: 'assets/icons/sulani.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Del Sol Valley',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/7/7f/DelSolValleyLogo.png/revision/latest?cb=20181022161231',
+      icon: 'assets/icons/del_sol_valley.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Strangerville',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/9/96/StrangerVille_Icon.png/revision/latest?cb=20190228213409',
+      icon: 'assets/icons/strangerville_world.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Forgotten Hollow',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/5/5a/ForgottenHollowWorldIcon.png/revision/latest?cb=20170716181405',
+      icon: 'assets/icons/forgotten_hollow.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Brindleton Bay',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/e/ec/BrindletonBaylogo.png/revision/latest?cb=20200606064625',
+      icon: 'assets/icons/brindleton_bay.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'San Myshuno',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/d/d7/SanMyshunoWorldIcon.png/revision/latest?cb=20161021205947',
+      icon: 'assets/icons/san_myshuno.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
-      name: 'Windernburg',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/6/6a/Windenburg.png/revision/latest?cb=20151207063616',
+      name: 'Windenburg',
+      icon: 'assets/icons/windenburg.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Magnolia Promenade',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/0/0e/Magnolia_Promenade_ingame_icon.png/revision/latest?cb=20200606064535',
+      icon: 'assets/icons/magnolia_promenade.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Oasis Spring',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/a/a4/Oasis_Springs_ingame_icon.png/revision/latest?cb=20200606063922',
+      icon: 'assets/icons/oasis_spring.png',
     },
     {
       type_key: 'world_generator',
       type: 'World Generator',
       name: 'Willow Creek',
-      icon:
-        'https://vignette.wikia.nocookie.net/sims/images/2/21/Willow_Creek_ingame_icon.png/revision/latest?cb=20200606064018',
+      icon: 'assets/icons/willow_creek.png',
+    },
+    {
+      type_key: 'world_generator',
+      type: 'World Generator',
+      name: 'Mt. Komorebi',
+      icon: '',
     },
   ],
 };
