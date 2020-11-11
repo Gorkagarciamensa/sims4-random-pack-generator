@@ -1,4 +1,5 @@
 <div class="wrapper">
+  <header class="wrapper-header">Sims 4 Random Game Generator</header>
   <div class="wrapper-content" *ngIf="random_expansion_pack.length" [@inOutAnimation]>
 
     <div class="wrapper-content--block">
@@ -20,7 +21,7 @@
     <div *ngFor="let random_pack of random_expansion_pack; let i = index" class="wrapper-content--block">
       <h5 class="wrapper-content--block-font-size">{{random_pack.type}}:</h5>
       <div class="wrapper-content--block-random">
-        <img [src]="random_pack.icon" [alt]="random_pack.icon" class="wrapper-content--block-random-icon-image">
+        <img [src]="random_pack.icon" [alt]="random_pack.name" class="wrapper-content--block-random-icon-image">
         <p>{{random_pack.name}}</p>
         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-refresh" width="48" height="48"
           viewBox="0 0 24 24" stroke-width="1.5" stroke="#FF5722" fill="none" stroke-linecap="round"
@@ -35,10 +36,6 @@
   </div>
 
   <div class="wrapper-generate">
-    <span>
-      <button (click)="generateRandomPacks()" class="wrapper-generate--button">
-        <p>GENERATE RANDOM PACKS</p>
-      </button>
-    </span>
+    <img (click)="generateRandomPacks()" src="assets/play.svg" alt="generate random pack" class="wrapper-generate--svg">
   </div>
 </div>
